@@ -12,6 +12,8 @@
 % Define output folder for the preprocessed data
 PreprocessedOutFolder='CASCADE_PreProcessing_Output'; 
 
+% This was added as a test for GitHub
+
 addpath(genpath(pwd))
 
 % Run the master pre-processing from raw data, or load preprocessed data from a file 

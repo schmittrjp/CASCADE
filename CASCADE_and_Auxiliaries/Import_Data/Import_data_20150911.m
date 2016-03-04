@@ -3,7 +3,7 @@
 %% First import the raw data matrix 
 
 % Import the data
-[~, ~, raw] = xlsread('E:\Connectivity classification Da\Matlab\Import_Data\20150911_Final_River_Net.xlsx','Data','A2:T49806');
+[~, ~, raw] = xlsread('\CASCADE_and_Auxiliaries\Import_Data\20150911_Final_River_Net.xlsx','Data','A2:T49806');
 raw(cellfun(@(x) ~isempty(x) && isnumeric(x) && isnan(x),raw)) = {''};
 
 % Replace non-numeric cells with NaN
